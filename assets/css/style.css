@@ -3,6 +3,11 @@
 body{
     font-family: "Exo", sans-serif;
     background-color: #afafaf;
+
+}
+
+h1{
+    font-family: "Koulen", cursive;
 }
 /* ----------------------------------------------------Nav bar */
 nav{
@@ -12,6 +17,37 @@ nav{
 .navbar-toggler{
     border: none;
 }
+
+/* ----------------------------------------------------Header */
+
+.hero-image{
+    background: url(../images/hero-image.jpeg) no-repeat center center;
+    background-size: 100% auto;
+    min-height: 450px;
+    display:block;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    /* NEED MEDIA QUERIES FOR HEIGHT ADJUSTMENT FOR UNDER 700PX WIDTH */
+}
+
+header{
+    margin: 0;
+    padding: none;
+    color:#fafafa;
+    text-align: center;
+}
+
+header h1{
+    padding-top: 50px;
+    font-size: 75px;
+}
+
+header h2{
+    font-weight: 700;
+}
+
+
 /* ----------------------------------------------------Footer */
 footer{
     font-family: 'Koulen', cursive;
