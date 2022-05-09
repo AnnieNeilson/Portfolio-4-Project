@@ -33,6 +33,9 @@ h1, h2, h3, h4, h5{
     position: relative;
     /* NEED MEDIA QUERIES FOR HEIGHT ADJUSTMENT FOR UNDER 700PX WIDTH */
 }
+.consultation-alert{
+    margin-bottom: 0;
+}
 
 header{
     margin: 0;
@@ -52,6 +55,10 @@ header h2{
     font-family: "Exo", sans-serif;
 }
 
+.main-header{
+    padding-bottom: 48px;
+    
+}
 
 /* ----------------------------------------------------Footer */
 .footer{
@@ -99,11 +106,13 @@ header h2{
 #art-link{
     background-color: #9e0000;
     color:#ffffff;
+    padding-bottom:0;
 }
 
 #faq-link{
     background-color: #810000;
     color:#dadada;
+    padding-bottom:0;
 }
 
 #booking-link{
@@ -112,5 +121,43 @@ header h2{
     padding-bottom:0;
 }
 
+/* --------------------------CONTACT PAGE------------------------*/
 
+.contact-info{
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.opening-times{
+    width:70%;
+    margin-left: 15%;
+    margin-top: 24px;
+}
+
+.contact-map{
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.contact-article{
+    padding-top: 24px;
+}
+
+
+/*----------------------------------Media Queries--------------------*/
+
+@media (max-width :700px) {
+    .hero-image{
+        background: url(../images/hero-image.jpeg) no-repeat center center;
+        min-height: 450px;
+        display:block;
+        width: 100%;
+        margin: auto;
+        position: relative;
+    }
+}
 
