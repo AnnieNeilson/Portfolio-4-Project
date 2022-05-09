@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@200&family=Koulen&display=swap');
 
+/*---------------------------------------Universal styles-----*/
 body{
     font-family: "Exo", sans-serif;
-    background-color: #afafaf;
-
+    background-color: #ffffff;
+    font-weight: 800;
 }
 
-h1{
+h1, h2, h3, h4, h5{
+    margin:0;
     font-family: "Koulen", cursive;
 }
 /* ----------------------------------------------------Nav bar */
-nav{
+.navbar-brand{
     font-family: 'Koulen', cursive;
+    font-size: 30px;
 }
 
 .navbar-toggler{
@@ -46,12 +49,12 @@ header h1{
 
 header h2{
     font-weight: 700;
+    font-family: "Exo", sans-serif;
 }
 
 
 /* ----------------------------------------------------Footer */
-footer{
-    font-family: 'Koulen', cursive;
+.footer{
     /* background-color: #353535; */
     text-align: center;
     color:#fafafa;
@@ -68,3 +71,46 @@ footer{
 .footer-content{
     padding-top: 35px;
 }
+
+/* --------------------------HOME PAGE------------------------*/
+
+.home-sections{
+    margin-top: 24px;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+#features{
+    margin-top: 24px;
+    text-align: center;
+    padding-bottom: none;
+}
+
+.feature-link{
+    padding-top: 24px;
+    padding-bottom: 12px;
+    height: 200px;
+}
+
+.feature-link > *{
+    padding: inherit;
+}
+
+#art-link{
+    background-color: #9e0000;
+    color:#ffffff;
+}
+
+#faq-link{
+    background-color: #810000;
+    color:#dadada;
+}
+
+#booking-link{
+    background-color: #4e0000;
+    color:#e7e7e7;
+    padding-bottom:0;
+}
+
+
+
