@@ -57,7 +57,10 @@ header h2{
 
 .main-header{
     padding-bottom: 48px;
-    
+    height:300px;
+    background: url("../images/header-photo.jpg") no-repeat center;
+    background-size: 600px;
+    background-position: 500px;
 }
 
 /* ----------------------------------------------------Footer */
@@ -158,6 +161,13 @@ header h2{
         width: 100%;
         margin: auto;
         position: relative;
+    }
+    .main-header{
+        padding-bottom: 48px;
+        height:300px;
+        background: url("../images/header-photo.jpg") no-repeat center;
+        background-size: 600px;
+        background-position: 50px;
     }
 }
 
