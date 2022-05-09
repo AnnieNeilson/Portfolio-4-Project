@@ -1,14 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@200&family=Koulen&display=swap');
 
 body{
-    /* font-family: "Exo", sans-serif; */
-    font-family: 'Koulen', cursive;
+    font-family: "Exo", sans-serif;
+    background-color: #afafaf;
 }
-
+/* ----------------------------------------------------Nav bar */
 nav{
-    padding-left: 6px;
+    font-family: 'Koulen', cursive;
 }
 
 .navbar-toggler{
     border: none;
+}
+/* ----------------------------------------------------Footer */
+footer{
+    font-family: 'Koulen', cursive;
+    /* background-color: #353535; */
+    text-align: center;
+    color:#fafafa;
+    height: 150px;
+}
+
+.social-media-icons{
+    font-size: 30px;
+    color:#fafafa;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.footer-content{
+    padding-top: 35px;
 }
